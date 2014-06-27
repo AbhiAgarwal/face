@@ -14,7 +14,7 @@ if __name__ == '__main__':
 
     # Seperate training and test data
     start, end = 0, 5
-    while end <= 400:
+    while end <= len(X):
         # training/test X
         trainingX += X[start:end]
         testX += X[end:end + 5]
